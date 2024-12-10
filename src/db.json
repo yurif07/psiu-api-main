@@ -1,0 +1,98 @@
+{
+  "students": [
+    {
+      "id": "0d97912d-77ac-47a4-a086-655b383a71f2",
+      "ra": "RA1",
+      "name": "Natan Foleto",
+      "passwordHash": "$2b$10$0Vvs8SrIZdjlSb2vesBUV.t0wzbzbk6W9k5Vnz4jGQnbMYeJDq/CW",
+      "birthdate": "1999-07-10T00:00:00.000Z",
+      "active": true,
+      "createdAt": "2024-11-22T01:00:26.962Z",
+      "updatedAt": "2024-11-22T01:00:26.962Z"
+    },
+    {
+      "id": "2bb0d081-c386-4eaf-8267-9f56c5a5735e",
+      "ra": "RA2",
+      "name": "Lineker",
+      "passwordHash": "$2b$10$DqxZhNtQVIqsGRO4NaLvoeCP/q8hYY06zuKP2oks5evZvuHlLuUIm",
+      "birthdate": "1999-07-10T00:00:00.000Z",
+      "active": true,
+      "createdAt": "2024-11-23T02:13:18.786Z",
+      "updatedAt": "2024-11-23T02:13:18.786Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "3d64b321-6fc1-4082-9c8a-4d076168a2c3",
+      "studentId": "2bb0d081-c386-4eaf-8267-9f56c5a5735e",
+      "content": "Post do RA2",
+      "active": true,
+      "publishedAt": "2024-11-28T23:51:57.107Z",
+      "updatedAt": null
+    },
+    {
+      "id": "74ac0b39-21dc-4c3c-8c92-b4226dd9f5c9",
+      "studentId": "0d97912d-77ac-47a4-a086-655b383a71f2",
+      "content": "Post do RA1",
+      "active": true,
+      "publishedAt": "2024-11-28T23:52:09.563Z",
+      "updatedAt": null
+    },
+    {
+      "id": "5c6b6187-8aca-43d9-b680-d52102c2f5ff",
+      "studentId": "0d97912d-77ac-47a4-a086-655b383a71f2",
+      "content": "Olá mundo!",
+      "active": true,
+      "publishedAt": "2024-11-29T01:20:02.520Z",
+      "updatedAt": null
+    }
+  ],
+  "comments": [
+    {
+      "id": "49aaad89-464d-4fc2-bfe8-2275ce167c81",
+      "studentId": "0d97912d-77ac-47a4-a086-655b383a71f2",
+      "postId": "5c6b6187-8aca-43d9-b680-d52102c2f5ff",
+      "content": "Comentário 10",
+      "active": true,
+      "commentedAt": "2024-11-29T01:28:30.003Z",
+      "updatedAt": null
+    },
+    {
+      "id": "ba3de812-798a-4c48-a44e-ee2236f5ef0d",
+      "studentId": "0d97912d-77ac-47a4-a086-655b383a71f2",
+      "postId": "5c6b6187-8aca-43d9-b680-d52102c2f5ff",
+      "content": "Comentário 2",
+      "active": true,
+      "commentedAt": "2024-11-29T01:29:54.201Z",
+      "updatedAt": null
+    },
+    {
+      "id": "13cec151-f2db-41ae-953a-83f9da885c9c",
+      "studentId": "0d97912d-77ac-47a4-a086-655b383a71f2",
+      "postId": "5c6b6187-8aca-43d9-b680-d52102c2f5ff",
+      "content": "sdfsdfsdf",
+      "active": true,
+      "commentedAt": "2024-12-03T01:32:36.219Z",
+      "updatedAt": null
+    },
+    {
+      "id": "7e566c36-c9fa-4630-bc86-5e9c1a850908",
+      "studentId": "0d97912d-77ac-47a4-a086-655b383a71f2",
+      "postId": "5c6b6187-8aca-43d9-b680-d52102c2f5ff",
+      "content": "sdfsdfsdfsd",
+      "active": true,
+      "commentedAt": "2024-12-03T01:32:38.180Z",
+      "updatedAt": null
+    }
+  ],
+  "posts_reactions": [
+    {
+      "id": "b571e4f1-69ce-4be8-8886-63fa8a6e65f7",
+      "studentId": "0d97912d-77ac-47a4-a086-655b383a71f2",
+      "postId": "5c6b6187-8aca-43d9-b680-d52102c2f5ff",
+      "type": 4,
+      "reactedAt": "2024-12-03T01:31:22.295Z"
+    }
+  ],
+  "comments_reactions": []
+}
